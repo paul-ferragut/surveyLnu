@@ -6,6 +6,7 @@ void ofApp::setup(){
 	/*
 
 	This is a series of exercises to get familiar with coding data visualizations. The last 3 will be challenging for beginners. Sometimes there a hint if you are blocked with an exercise. Try first to do the exercise without reading the hint. Each small exercise is increasingly more difficult.
+	If you manage all exercices your app should look similar to this https://github.com/paul-ferragut/surveyLnu/blob/master/bin/data/capture.PNG 
 
 	-change the background and bar chart color.
 
