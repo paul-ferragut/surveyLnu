@@ -1,0 +1,16 @@
+
+*.dll
+*.tlog
+*.pdb
+*.log
+*.obj
+*.lib
+*.ilk
+*.db
+*.db-shm
+*.ipch
+*.opendb
+*.db-wal
+*.exe
+*.exp
+*.res
