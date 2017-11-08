@@ -5,26 +5,23 @@ void ofApp::setup(){
 
 
 	/*
-
-	this comment contains small hint if you are blocked with an exercice. Try first to do the exercice without reading the hint.
-	Each small exercice is increasingly more difficult.
+	This is a series of exercises to get familiar with coding data visualizations. Sometimes there a hint if you are blocked with an exercise. Try first to do the exercise without reading the hint. Each small exercise is increasingly more difficult.
 
 	-change the background and bar chart color.
 
 	-change the spacing of the bar chart and the width of the bars. hint: There are already two variables created in draw function to change those parameters, so you only need to tweak the value.
-	
-	-the bar chart is aligned from the top. Make it aligned from the bottom. hint: you will need to substract the value of the rectangle height to the y position of the rectangle.
 
-	-create the other bar charts for the other brands (bayer, monsanto, modern meadow), place those 4 new bar chart under each other. hint: before you can do the bar you will need to assign the value from the csv file to the variable. see how it's done in setup with boltThread[i]= ofToInt(csv.getRow(i + 1).getString(2));
+	-the bar chart is aligned from the top. Make it aligned from the bottom. hint: you will need to subtract the value of the rectangle height to the y position of the rectangle.
 
-	-use the function ofDrawBitmapString(string s,int x,int y); to write the name of the brand next to its respective chart.
+	-create the other bar charts for the other brands (bayer, monsanto, modern meadow), place those 4 new bar chart under each other. hint: before you can do the bar you will need to assign the value from the .csv file to the variable. see how it's done in setup with boltThread[i]= ofToInt(csv.getRow(i + 1).getString(2));
 
-	-for each bar chart draw a line representing the average value of the result. hint: to calculate an average you add all the value and divide by the number of value
+	-use the function ofDrawBitmapString(string s, int x, int y); to write the name of the brand next to its respective chart.
 
-	-instead of a bar chart try to create an area diagram using a for loop and the functions ofBeginShape();	ofVertex();		ofEndShape(); http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofBeginShape
+	-for each bar chart draw a line representing the average value of the result. hint: to calculate an average, add up all the value and divide the sum by the number of values.
 
-	-try to have different bar colors within a chart, for instance small value is darker and high value is brighter
+	-instead of a bar chart try to create an area graph https://datavizcatalogue.com/methods/images/anatomy/area_graph.png using a for loop and the functions ofBeginShape();    ofVertex();        ofEndShape(); http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofBeginShape
 
+	-try to have different bar colors within a chart, for instance, a small value is a darker bar and high value is a brighter bar.
 	*/
 
 
