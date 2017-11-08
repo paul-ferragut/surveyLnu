@@ -3,9 +3,9 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-
 	/*
-	This is a series of exercises to get familiar with coding data visualizations. Sometimes there a hint if you are blocked with an exercise. Try first to do the exercise without reading the hint. Each small exercise is increasingly more difficult.
+
+	This is a series of exercises to get familiar with coding data visualizations. The last 3 will be challenging for beginners. Sometimes there a hint if you are blocked with an exercise. Try first to do the exercise without reading the hint. Each small exercise is increasingly more difficult.
 
 	-change the background and bar chart color.
 
@@ -13,15 +13,16 @@ void ofApp::setup(){
 
 	-the bar chart is aligned from the top. Make it aligned from the bottom. hint: you will need to subtract the value of the rectangle height to the y position of the rectangle.
 
-	-create the other bar charts for the other brands (bayer, monsanto, modern meadow), place those 4 new bar chart under each other. hint: before you can do the bar you will need to assign the value from the .csv file to the variable. see how it's done in setup with boltThread[i]= ofToInt(csv.getRow(i + 1).getString(2));
+	-create the other bar charts for the other brands (bayer, monsanto, modern meadow), place those 4 new bar chart under each other. hint: before you can do the bar chart you will need to assign the value from the .csv file to a corresponding variable array. see how it's done in setup() with boltThread[i]= ofToInt(csv.getRow(i + 1).getString(2));
 
 	-use the function ofDrawBitmapString(string s, int x, int y); to write the name of the brand next to its respective chart.
-
-	-for each bar chart draw a line representing the average value of the result. hint: to calculate an average, add up all the value and divide the sum by the number of values.
 
 	-instead of a bar chart try to create an area graph https://datavizcatalogue.com/methods/images/anatomy/area_graph.png using a for loop and the functions ofBeginShape();    ofVertex();        ofEndShape(); http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofBeginShape
 
 	-try to have different bar colors within a chart, for instance, a small value is a darker bar and high value is a brighter bar.
+
+	-for each bar chart overlay a line representing the average value of the result. hint: to calculate an average, add up all the value and divide the sum by the number of values.
+
 	*/
 
 
