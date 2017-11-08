@@ -28,8 +28,8 @@ class ofApp : public ofBaseApp{
 		
 
 		string studentName[18];
-		int modernMeadow[18];
-		int bayer[18];
 		int boltThread[18];
-		int monsanto[18];
+		//int modernMeadow[18];
+		//int bayer[18];
+		//int monsanto[18];
 };
